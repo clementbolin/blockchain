@@ -27,7 +27,7 @@ type Block struct {
 	prevHash	string
 }
 
-// Message :
+// Message contain body request value
 type Message struct {
 	BPM int
 }
