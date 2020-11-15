@@ -7,6 +7,6 @@ WORKDIR /app
 COPY . .
 
 RUN go build -o blockChain
-RUN ./blockChain
 
 EXPOSE 8080
+CMD [ "./blockChain" ] ./blockChain
